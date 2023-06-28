@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.backround-container{
+    /* display: flex; */
+    width: 100%;
+    height: 745px;
+    background-image: url(https://i.pinimg.com/736x/b8/55/26/b855262132f2a3d858d40728d7f938f2--tro-presentation.jpg);
+    /* /* background-repeat: no-repeat; */
+    background-size: contain; 
+    
+}
+
+.title-birthay{
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 80px;
+    font-style: italic;
+    color: #faaea5;
+}
+
+.backround--avatar{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-icon{
+    margin-top: 50px;
+    width: 576px;
+    height: 200px;
+    background-color: #f4f4f4;
+}
+
+.list-icon > li{
+    /* display: flex; */
+    position: relative;
+    list-style: none;
+}
+
+.list-icon > li > a > i{
+    position: absolute;
+    top: 300%;
+}
+
+.list-icon{
+    
+    font-size: 30px;
+    margin-top: 40px;
+    display: flex;
+    width: 576px;
+    justify-content: space-around;
+}
+
+.list-icon > li > a > i{
+    color: #ee3e38;
+}
+
+.list-icon-bot{
+    margin-top: 70px;
+}
+
+.fa-instagram:hover{
+    color: #ae2d68;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+
+.fa-tiktok:hover{
+    color: black;
+}
+
+.fa-spotify:hover{
+    color: green;
+}
+
+
+.fa-cake-candles:hover{
+    color: #118691;
+}
+
+.title-color{
+    color: #58a1d8;
+    
+}
